@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+	background-color: #4169E1;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 5px;
+}
+
+section {
+	padding: 20px;
+}
+
+.label {
+	text-align: center;
+}
+
+.input-description {
+	margin-bottom: 10px;
+}
+
+#modal-error {
+	text-align: right;
+	color: red;
+}
+
+.segment > .button {
+	width: 150px;
+	display: block;
+	margin-bottom: 10px !important;
+	margin: auto;
+}
+
+.transaction-row {
+	display: flex;
+	justify-content: space-between;
+}
